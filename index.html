@@ -1,14 +1,59 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<title>Hello World</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新座剣誠会</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body> 
-<h1>森犬パンチ</h1> 
-<h2>森犬キック</h2>
-<h3>森犬エルボー</h3>
+<body>
+    <header>
+        <h1>新座剣誠会</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">団体概要</a></li>
+                <li><a href="#schedule">スケジュール</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>団体概要</h2>
+            <p>新座剣誠会は、埼玉県新座市で活動する剣道団体です。青少年から一般まで幅広い年代のメンバーが所属しています。</p>
+        </section>
+
+        <section id="schedule">
+            <h2>スケジュール</h2>
+            <p>練習スケジュールやイベント情報はこちらをご確認ください。</p>
+            <ul>
+                <li>月曜日: 18:00 - 20:00</li>
+                <li>水曜日: 18:00 - 20:00</li>
+                <li>土曜日: 10:00 - 12:00</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>お問い合わせ</h2>
+            <p>ご質問やお問い合わせは以下のフォームからお願いします。</p>
+            <form>
+                <label for="name">名前:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">メールアドレス:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">メッセージ:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">送信</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 新座剣誠会</p>
+    </footer>
 </body>
 </html>
-
-<a href="a.html"></a>
